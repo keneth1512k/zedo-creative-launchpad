@@ -30,22 +30,22 @@ const Hero = () => {
       <div className="relative z-20 container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center px-6 py-3 mb-8 bg-gradient-card rounded-full border border-border shadow-card animate-fade-in">
-            <span className="text-sm font-medium text-foreground">⚡ We Make Tech Work for You</span>
+          <div className="inline-flex items-center px-6 py-3 mb-8 bg-gradient-tech rounded-full border border-border shadow-card animate-fade-in">
+            <span className="text-sm font-medium text-foreground">⚡ Empowering Digital Innovation</span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="text-foreground">Welcome to</span>
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 animate-slide-up leading-tight">
+            <span className="text-foreground">Empowering Digital</span>
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              ZEDOIT
+              Innovation with ZEDOIT
             </span>
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
-            Innovative solutions for a digital world. We transform your ideas into reality with cutting-edge technology and creative excellence.
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in font-sans">
+            Tech solutions that redefine possibilities.
           </p>
 
           {/* CTA Buttons */}
@@ -55,9 +55,9 @@ const Hero = () => {
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             
-            <Button variant="glass" size="xl" className="group">
+            <Button variant="outline" size="xl" className="group">
               <Play className="mr-2 group-hover:scale-110 transition-transform" />
-              Explore Our Services
+              See Our Work
             </Button>
           </div>
 

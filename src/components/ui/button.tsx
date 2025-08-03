@@ -9,25 +9,24 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-primary hover:shadow-hover transform hover:scale-105",
-        destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline:
-          "border border-primary bg-background text-primary hover:bg-primary hover:text-primary-foreground shadow-card hover:shadow-hover transform hover:scale-105",
-        secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-card hover:shadow-hover hover:scale-[1.02]",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        outline: "border border-border bg-card text-card-foreground hover:bg-accent hover:text-accent-foreground hover:shadow-card",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-card hover:shadow-hover",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-primary text-primary-foreground font-bold shadow-primary hover:shadow-hover transform hover:scale-105",
-        cta: "bg-zedo-blue text-zedo-white border-2 border-transparent hover:bg-transparent hover:border-zedo-blue hover:text-zedo-blue shadow-primary hover:shadow-hover transform hover:scale-105",
-        glass: "bg-zedo-white/10 backdrop-blur-md text-zedo-white border border-zedo-white/20 hover:bg-zedo-white/20 shadow-card hover:shadow-hover"
+        hero: "bg-gradient-primary text-primary-foreground shadow-primary hover:shadow-glow hover:scale-105 font-semibold",
+        tech: "bg-gradient-tech text-foreground border border-border shadow-card hover:shadow-hover hover:scale-[1.02]",
+        premium: "bg-zedo-dark text-zedo-light hover:bg-zedo-dark/90 shadow-card hover:shadow-hover hover:scale-[1.02]",
+        cta: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-primary hover:shadow-glow hover:scale-105 font-semibold",
+        glass: "bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-white/20 shadow-card hover:shadow-hover",
       },
       size: {
-        default: "h-12 px-6 py-3",
-        sm: "h-9 rounded-xl px-4",
-        lg: "h-14 rounded-2xl px-8 text-lg",
-        xl: "h-16 rounded-2xl px-10 text-xl",
-        icon: "h-12 w-12",
+        default: "h-11 px-6 py-2 text-sm",
+        sm: "h-9 rounded-xl px-4 text-sm",
+        lg: "h-12 rounded-2xl px-8 text-base",
+        xl: "h-14 rounded-2xl px-10 text-lg font-semibold",
+        icon: "h-11 w-11",
       },
     },
     defaultVariants: {
