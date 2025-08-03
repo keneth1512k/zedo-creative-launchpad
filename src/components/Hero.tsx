@@ -31,33 +31,33 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
           <div className="inline-flex items-center px-6 py-3 mb-8 bg-gradient-card rounded-full border border-border shadow-card animate-fade-in">
-            <span className="text-sm font-medium text-foreground">🚀 Your Digital Dreams, Our Innovation</span>
+            <span className="text-sm font-medium text-foreground">⚡ We Make Tech Work for You</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="text-foreground">Transform Ideas Into</span>
+            <span className="text-foreground">Welcome to</span>
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Digital Reality
+              ZEDOIT
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
-            From stunning websites to powerful mobile apps, we bring your vision to life with cutting-edge technology and creative excellence.
+            Innovative solutions for a digital world. We transform your ideas into reality with cutting-edge technology and creative excellence.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-slide-up">
             <Button variant="hero" size="xl" className="group">
-              Let's Build Something Amazing
+              Get Started
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             
             <Button variant="glass" size="xl" className="group">
               <Play className="mr-2 group-hover:scale-110 transition-transform" />
-              Watch Our Work
+              Explore Our Services
             </Button>
           </div>
 

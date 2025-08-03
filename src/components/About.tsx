@@ -33,11 +33,11 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="text-foreground">About </span>
-              <span className="bg-gradient-primary bg-clip-text text-transparent">ZEDO</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">ZEDOIT</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We're a creative technology company that bridges the gap between imagination and reality, 
-              delivering comprehensive digital solutions that drive business growth.
+              At ZEDOIT, we make tech work for you. We're a creative technology company specializing in 
+              innovative solutions for a digital world, delivering comprehensive services that drive business growth.
             </p>
           </div>
 
@@ -54,9 +54,9 @@ const About = () => {
               </h3>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At ZEDO, we believe that every business deserves exceptional digital experiences. 
-                Our multidisciplinary team combines technical expertise with creative vision to 
-                deliver solutions that not only meet your needs but exceed your expectations.
+                At ZEDOIT, we believe technology should empower, not complicate. Our multidisciplinary 
+                team combines technical expertise with creative innovation to deliver solutions that 
+                reflect our core values: innovation, creativity, and trust.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -72,7 +72,7 @@ const About = () => {
 
             {/* Right Content - Statistics */}
             <div className="bg-background rounded-3xl p-8 shadow-card">
-              <h4 className="text-2xl font-bold text-foreground mb-8 text-center">Why Choose ZEDO?</h4>
+              <h4 className="text-2xl font-bold text-foreground mb-8 text-center">Why Choose ZEDOIT?</h4>
               
               <div className="grid grid-cols-2 gap-6">
                 {[

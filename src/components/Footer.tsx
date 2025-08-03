@@ -34,20 +34,20 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-6">
                 <div className="text-3xl font-bold">
-                  ZED
+                  ZEDO
                   <span className="inline-flex items-center justify-center w-8 h-8 bg-primary rounded-full text-primary-foreground text-lg ml-1">
-                    ●
+                    IT
                   </span>
                 </div>
               </div>
               <p className="text-zedo-white/80 mb-6 max-w-md leading-relaxed">
-                Transforming businesses through innovative digital solutions. From creative design to 
-                cutting-edge development, we bring your vision to life with excellence and precision.
+                We make tech work for you. Innovative solutions for a digital world, delivered with 
+                creativity, trust, and cutting-edge technology that brings your vision to life.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span className="text-zedo-white/90">hello@zedo.com</span>
+                  <span className="text-zedo-white/90">hello@zedoit.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-primary" />
@@ -121,7 +121,7 @@ const Footer = () => {
           <div className="pt-8 border-t border-zedo-white/10">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               <div className="text-zedo-white/60 text-sm">
-                © {currentYear} ZEDO. All rights reserved. Made with ❤️ for innovation.
+                © {currentYear} ZEDOIT. All rights reserved. Made with ❤️ for innovation.
               </div>
               
               {/* Social Links */}

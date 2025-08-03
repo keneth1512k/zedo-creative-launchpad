@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="text-foreground">Why Choose </span>
-              <span className="bg-gradient-primary bg-clip-text text-transparent">ZEDO</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">ZEDOIT</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We don't just deliver projects – we create lasting partnerships and drive real business growth 

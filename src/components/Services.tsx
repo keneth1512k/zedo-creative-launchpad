@@ -20,80 +20,74 @@ const Services = () => {
     {
       icon: Palette,
       title: "Graphic Design",
-      description: "Stunning posters, branding, logos, and packaging that captivate your audience.",
-      features: ["Logo Design", "Brand Identity", "Print Materials", "Packaging Design"]
+      description: "Logos, posters, and brand identity that make your business stand out.",
+      features: ["Logo Design", "Brand Identity", "Posters", "Visual Branding"]
     },
     {
       icon: Code,
-      title: "Web Development",
-      description: "Modern, responsive websites built with React, Node.js, and cutting-edge technologies.",
-      features: ["React Applications", "Full-stack Development", "E-commerce Sites", "Web Applications"]
+      title: "Website & System Development",
+      description: "Modern, responsive websites and robust systems built with cutting-edge technology.",
+      features: ["Custom Websites", "Web Applications", "System Development", "E-commerce Solutions"]
     },
     {
       icon: Smartphone,
       title: "App Development",
       description: "Native and cross-platform mobile applications for Android and iOS.",
-      features: ["Native iOS/Android", "Cross-platform", "UI/UX Design", "App Store Optimization"]
-    },
-    {
-      icon: Video,
-      title: "Video Editing",
-      description: "Professional video editing and content creation for all your marketing needs.",
-      features: ["Video Production", "Motion Graphics", "Color Grading", "Audio Enhancement"]
-    },
-    {
-      icon: Share2,
-      title: "Social Media Management",
-      description: "Comprehensive social media strategy, content creation, and community management.",
-      features: ["Content Strategy", "Social Media Ads", "Community Management", "Analytics & Reporting"]
-    },
-    {
-      icon: Film,
-      title: "Film Production",
-      description: "Creative storytelling through professional film production and cinematography.",
-      features: ["Script Writing", "Cinematography", "Post-Production", "Creative Direction"]
-    },
-    {
-      icon: Settings,
-      title: "IT Support",
-      description: "Reliable computer repair services and comprehensive IT support solutions.",
-      features: ["Hardware Repair", "Software Solutions", "Network Setup", "Technical Support"]
+      features: ["Android Apps", "iOS Apps", "Cross-platform", "Mobile Solutions"]
     },
     {
       icon: Lightbulb,
-      title: "Tech Consultations",
-      description: "Strategic technology consulting and digital transformation guidance.",
-      features: ["Digital Strategy", "Technology Audits", "Process Optimization", "Innovation Consulting"]
+      title: "UI/UX Design",
+      description: "User-centered design that creates intuitive and engaging digital experiences.",
+      features: ["User Interface Design", "User Experience", "Prototyping", "Design Systems"]
     },
     {
-      icon: Globe,
-      title: "Hosting & Domains",
-      description: "Secure web hosting solutions and domain management services.",
-      features: ["Web Hosting", "Domain Registration", "SSL Certificates", "Backup Solutions"]
+      icon: Settings,
+      title: "Computer Repair & Technical Support",
+      description: "Reliable computer repair services and comprehensive IT support solutions.",
+      features: ["Hardware Repair", "Software Troubleshooting", "System Maintenance", "Technical Support"]
+    },
+    {
+      icon: Share2,
+      title: "Social Media Marketing & Digital Strategy",
+      description: "Comprehensive digital marketing strategies that drive engagement and growth.",
+      features: ["Social Media Management", "Digital Marketing", "Content Strategy", "Online Campaigns"]
+    },
+    {
+      icon: Video,
+      title: "Photography & Videography",
+      description: "Professional photography and videography services for all your visual needs.",
+      features: ["Commercial Photography", "Event Photography", "Video Production", "Creative Content"]
+    },
+    {
+      icon: Film,
+      title: "Content Creation",
+      description: "Educational and promotional content that informs, engages, and converts.",
+      features: ["Educational Content", "Promotional Materials", "Content Writing", "Visual Content"]
     },
     {
       icon: Zap,
-      title: "Motion Graphics",
-      description: "Engaging animations and motion graphics that bring your content to life.",
-      features: ["2D/3D Animation", "Logo Animation", "Explainer Videos", "Visual Effects"]
+      title: "IT Consultation",
+      description: "Strategic technology consulting and digital transformation guidance.",
+      features: ["Technology Strategy", "Digital Transformation", "IT Planning", "System Optimization"]
+    },
+    {
+      icon: Film,
+      title: "Film Production & Editing",
+      description: "Complete film production services from concept to final cut.",
+      features: ["Film Production", "Video Editing", "Post-Production", "Creative Direction"]
+    },
+    {
+      icon: Globe,
+      title: "Hosting and Domain Registration",
+      description: "Secure web hosting solutions and domain management services.",
+      features: ["Web Hosting", "Domain Registration", "SSL Certificates", "Server Management"]
     },
     {
       icon: GraduationCap,
-      title: "E-learning Platforms",
-      description: "Custom e-learning solutions and digital course development.",
-      features: ["Learning Management Systems", "Course Development", "Interactive Content", "Progress Tracking"]
-    },
-    {
-      icon: Leaf,
-      title: "Digital Farming Assistant",
-      description: "Smart farming solutions with IoT integration and crop management systems.",
-      features: ["Crop Monitoring", "Weather Integration", "Yield Prediction", "Farm Analytics"]
-    },
-    {
-      icon: Building,
-      title: "Guest House Management",
-      description: "Complete management systems for hospitality and accommodation businesses.",
-      features: ["Booking System", "Payment Integration", "Guest Management", "Analytics Dashboard"]
+      title: "E-learning Content & Platforms",
+      description: "Custom e-learning solutions and educational platform development.",
+      features: ["Learning Platforms", "Educational Content", "Online Courses", "Training Systems"]
     }
   ];
 

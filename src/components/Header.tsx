@@ -32,9 +32,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-foreground">
-              ZED
+              ZEDO
               <span className="inline-flex items-center justify-center w-8 h-8 bg-primary rounded-full text-primary-foreground text-lg ml-1">
-                ●
+                IT
               </span>
             </div>
           </div>

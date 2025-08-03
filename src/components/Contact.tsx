@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      info: "hello@zedo.com",
+      info: "hello@zedoit.com",
       description: "Send us an email anytime"
     },
     {
