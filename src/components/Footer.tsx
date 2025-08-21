@@ -47,15 +47,19 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span className="text-zedo-white/90">hello@zedoit.com</span>
+                  <span className="text-zedo-white/90">info@zedoit.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span className="text-zedo-white/90">+1 (555) 123-4567</span>
+                  <span className="text-zedo-white/90">+255 682 800 037</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Phone className="w-5 h-5 text-primary" />
+                  <span className="text-zedo-white/90">+255 768442469</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span className="text-zedo-white/90">123 Tech Street, Digital City</span>
+                  <span className="text-zedo-white/90">Dodoma mjini miyuji mwatano</span>
                 </div>
               </div>
             </div>

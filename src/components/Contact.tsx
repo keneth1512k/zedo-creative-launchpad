@@ -41,19 +41,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      info: "hello@zedoit.com",
+      info: "info@zedoit.com",
       description: "Send us an email anytime"
     },
     {
       icon: Phone,
       title: "Call Us",
-      info: "+1 (555) 123-4567",
+      info: "+255 682 800 037",
       description: "Mon-Fri from 8am to 5pm"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      info: "123 Tech Street, Digital City",
+      info: "Dodoma mjini miyuji mwatano",
       description: "Our main office location"
     }
   ];
@@ -163,6 +163,10 @@ const Contact = () => {
                   size="lg" 
                   className="w-full"
                   disabled={isSubmitting}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubmit(e);
+                  }}
                 >
                   {isSubmitting ? (
                     <>Sending...</>
@@ -228,7 +232,14 @@ const Contact = () => {
                 <p className="text-primary-foreground/90 mb-6">
                   Schedule a free 30-minute consultation to discuss your project requirements and get expert advice.
                 </p>
-                <Button variant="glass" size="lg" className="w-full">
+                <Button 
+                  variant="glass" 
+                  size="lg" 
+                  className="w-full"
+                  onClick={() => {
+                    window.open('tel:+255682800037', '_self');
+                  }}
+                >
                   Schedule Free Consultation
                 </Button>
               </div>

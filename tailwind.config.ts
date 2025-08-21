@@ -70,8 +70,8 @@ export default {
 				}
 			},
 			fontFamily: {
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
-        'display': ['Poppins', 'system-ui', 'sans-serif'],
+        'sans': ['Mona Sans', 'system-ui', 'sans-serif'],
+        'display': ['Mona Sans', 'system-ui', 'sans-serif'],
       },
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',

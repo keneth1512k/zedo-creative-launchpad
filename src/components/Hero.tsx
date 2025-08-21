@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/it-services-hero.jpg";
 
 const Hero = () => {
   return (
@@ -31,15 +31,15 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
           <div className="inline-flex items-center px-6 py-3 mb-8 bg-gradient-tech rounded-full border border-border shadow-card animate-fade-in">
-            <span className="text-sm font-medium text-foreground">⚡ Empowering Digital Innovation</span>
+            <span className="text-sm font-medium text-foreground">⚡ Got an idea let's make it real</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 animate-slide-up leading-tight">
-            <span className="text-foreground">Empowering Digital</span>
+            <span className="text-foreground">Got an idea</span>
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Innovation with ZEDOIT
+              let's make it real
             </span>
           </h1>
 
@@ -50,12 +50,28 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-slide-up">
-            <Button variant="hero" size="xl" className="group">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group"
+              onClick={() => {
+                const contactSection = document.getElementById('contact');
+                contactSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Get Started
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             
-            <Button variant="outline" size="xl" className="group">
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="group"
+              onClick={() => {
+                const portfolioSection = document.getElementById('portfolio');
+                portfolioSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               <Play className="mr-2 group-hover:scale-110 transition-transform" />
               See Our Work
             </Button>
