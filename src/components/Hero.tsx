@@ -20,20 +20,17 @@ const Hero = () => {
           {/* Innovation Badge */}
           <div className="inline-flex items-center gap-2 px-6 py-3 mb-8 bg-gradient-to-r from-zedo-blue/10 to-purple-500/10 backdrop-blur-sm rounded-full border border-zedo-blue/20 shadow-lg animate-fade-in">
             <div className="w-2 h-2 bg-zedo-blue rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium text-foreground tracking-wide">⚡ Got an idea let's make it real</span>
+            <span className="text-sm font-medium text-foreground tracking-wide">⚡ Got an idea? Let's make it real with ZedoIT</span>
           </div>
 
           {/* Main Heading */}
           <div className="mb-8 animate-slide-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight tracking-tight mb-4">
-              <span className="block text-foreground mb-2">Got an</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight tracking-tight">
+              <span className="block text-foreground mb-4">Got an idea? Let's make it real</span>
               <span className="block bg-gradient-to-r from-zedo-blue via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                idea
+                with ZedoIT
               </span>
             </h1>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-display font-semibold text-muted-foreground/80">
-              let's make it <span className="text-zedo-blue">real</span>
-            </h2>
           </div>
 
           {/* Subheading */}
