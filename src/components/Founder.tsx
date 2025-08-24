@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ceoProfile from "@/assets/ceo-profile.jpg";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Mail, MessageCircle } from "lucide-react";
 
@@ -23,7 +22,7 @@ const Founder = () => {
               <div className="relative">
                 <div className="w-48 h-48 rounded-full overflow-hidden shadow-hover">
                   <img
-                    src={ceoProfile}
+                    src="/lovable-uploads/ddb2f6de-6c46-4da4-bdbf-049a0d996f3e.png"
                     alt="Kenneth Loth Kingu - CEO of ZEDOIT"
                     className={`w-full h-full object-cover transition-opacity duration-500 ${
                       imageLoaded ? 'opacity-100' : 'opacity-0'
@@ -38,8 +37,9 @@ const Founder = () => {
 
               {/* Content */}
               <div className="flex-1 text-left">
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-2">
-                  Kenneth Loth Kingu
+                <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-2 leading-tight">
+                  Kenneth Loth Kingu<br />
+                  <span className="text-primary">with ZedoIT</span>
                 </h3>
                 <p className="text-primary font-semibold mb-4 text-lg">
                   Chief Executive Officer (CEO)
