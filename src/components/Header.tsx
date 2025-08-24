@@ -32,7 +32,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/7d021ad4-2079-4df3-830b-53e7729949e0.png" 
+              src="/lovable-uploads/259c5bc0-3a59-4af5-8699-21a3b8afd094.png" 
               alt="ZedoIT Logo" 
               className="h-10 w-auto"
             />
