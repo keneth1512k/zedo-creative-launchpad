@@ -31,12 +31,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-foreground">
-              ZEDO
-              <span className="inline-flex items-center justify-center w-8 h-8 bg-primary rounded-full text-primary-foreground text-lg ml-1">
-                IT
-              </span>
-            </div>
+            <img 
+              src="/lovable-uploads/7d021ad4-2079-4df3-830b-53e7729949e0.png" 
+              alt="ZedoIT Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

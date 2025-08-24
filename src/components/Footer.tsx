@@ -33,12 +33,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-6">
-                <div className="text-3xl font-bold">
-                  ZEDO
-                  <span className="inline-flex items-center justify-center w-8 h-8 bg-primary rounded-full text-primary-foreground text-lg ml-1">
-                    IT
-                  </span>
-                </div>
+                <img 
+                  src="/lovable-uploads/7d021ad4-2079-4df3-830b-53e7729949e0.png" 
+                  alt="ZedoIT Logo" 
+                  className="h-12 w-auto"
+                />
               </div>
               <p className="text-zedo-white/80 mb-6 max-w-md leading-relaxed">
                 We make tech work for you. Innovative solutions for a digital world, delivered with 
