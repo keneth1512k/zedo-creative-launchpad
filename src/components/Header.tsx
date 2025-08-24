@@ -54,7 +54,14 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="cta" size="lg">
+            <Button 
+              variant="cta" 
+              size="lg"
+              onClick={() => {
+                const contactSection = document.getElementById('contact');
+                contactSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Get Started
             </Button>
           </div>
@@ -82,7 +89,16 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="cta" size="lg" className="w-full mt-4">
+              <Button 
+                variant="cta" 
+                size="lg" 
+                className="w-full mt-4"
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  contactSection?.scrollIntoView({ behavior: 'smooth' });
+                  setIsMenuOpen(false);
+                }}
+              >
                 Get Started
               </Button>
             </nav>
